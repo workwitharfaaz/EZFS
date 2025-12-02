@@ -1,0 +1,131 @@
+/* Global */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ffeef8;
+  margin: 0;
+  padding: 0;
+  color: #555;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffffee;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(255, 182, 193, 0.25);
+  border: 3px solid #ffd7ef;
+}
+
+/* Headings */
+h1, h2 {
+  font-weight: 700;
+  color: #ff77b7;
+  text-shadow: 0 2px 4px #ffd3e8;
+}
+
+h3 {
+  color: #8e82ff;
+}
+
+/* Kawaii Buttons Base */
+button, .kawaii-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+/* Select File Button */
+.select-file-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ffb3d9;
+  color: #5a3e4d;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  display: block;
+}
+
+.select-file-btn:hover {
+  background: #ffa3d1;
+}
+/* Hide actual file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Upload Button */
+.upload-btn {
+  background: #77ddff;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(119, 221, 255, 0.4);
+}
+
+.upload-btn:hover {
+  background: #5cc8f0;
+}
+
+/* Download Button */
+.download-btn {
+  background: #a0ffcf;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(160, 255, 207, 0.4);
+}
+
+.download-btn:hover {
+  background: #7ff5b8;
+}
+
+/* Input Fields */
+input[type="text"] {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 18px;
+  border: 2px solid #ffd1ec;
+  background: #fff7fb;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ff9bdd;
+  background: #fff0fa;
+}
+
+/* Sections */
+.section {
+  padding-bottom: 30px;
+  border-bottom: 3px dashed #ffe0f4;
+  margin-bottom: 25px;
+}
+
+.features ul {
+  padding-left: 20px;
+}
+
+.features ul li {
+  font-size: 17px;
+  margin-bottom: 8px;
+  color: #6a5fbb;
+}
+
+/* Cute Divider */
+.kawaii-divider {
+  width: 80px;
+  height: 8px;
+  background: linear-gradient(90deg, #ff77b7, #77ddff, #a0ffcf, #ffd86b);
+  border-radius: 5px;
+  margin: 20px 0;
+}
