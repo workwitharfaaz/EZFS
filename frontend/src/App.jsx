@@ -133,7 +133,7 @@ function App() {
           <h2 className="pastel-heading">About EZFS</h2>
           <p className="pastel-text">
             EZFS is a simple file-sharing tool using a 6-digit code to transfer
-            files instantly. Works on mobile and desktop. No account required. Since the backend is hosted for free it needs sometime before it can become active. Should be active in about 1 to 2 minutes after uploading if didn't work please upload again.
+            files instantly. Works on mobile and desktop. No account required. Since the backend is hosted for free it needs sometime before it can become active. Should be active in about 1 to 2 minutes after uploading if it didn't work please upload again.
           </p>
 
           <h3 className="pastel-sub">Features</h3>
